@@ -7,6 +7,9 @@ def get_value():
     print("It works!\n")
     print(f"Name:- {nameValue.get()}\nPhone:- {phoneValue.get()}\nGender:- {genderValue.get()}\nEmergency Number:- {emergencyValue.get()}\nPayment Mode:- {payment_modeValue.get()}\nfood Service :- {food_serviceValue.get()}")
 
+# Heading.
+label1 = Label(root,text = "Creating Checkbox GUI",font="comicsansms 13 bold", pady=15,fg = "red").grid(column = 3)
+
 #Text for the form.
 name = Label(root,text = "Name ")
 name.grid(row = 1, column = 1)
