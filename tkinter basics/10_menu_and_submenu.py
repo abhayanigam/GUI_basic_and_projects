@@ -30,6 +30,8 @@ main_menu.add_cascade(label = "File",menu = m1)
 
 # ------------- Make Menu 2-------------
 m2 = Menu(main_menu, tearoff=0)
+# Tearoff=0 is used so that the menu will not have a tear-off feature, and choices will be added starting at position 0 (the menu section will be attached with GUI window always).
+
 m2.add_command(label="Cut", command=func)
 m2.add_command(label="Copy", command=func)
 
