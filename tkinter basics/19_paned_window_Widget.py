@@ -5,7 +5,7 @@ from tkinter import *
 def addition():
     x = int(e1.get())
     y = int(e2.get())
-    leftdata = "hello" + str(x+y)
+    leftdata = str(x+y)
     leftinput.insert(1, leftdata)
 
 
